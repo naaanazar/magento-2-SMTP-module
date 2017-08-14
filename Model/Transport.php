@@ -2,7 +2,7 @@
 /**
  * Mail Transport
  */
-namespace naaa\ContactUs\Model;
+namespace naaa\smtp\Model;
 
 class Transport extends \Zend_Mail_Transport_Smtp implements \Magento\Framework\Mail\TransportInterface
 {
